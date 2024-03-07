@@ -1,0 +1,105 @@
+.form form{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    justify-content: center;
+    display: flex;
+}
+ form input{
+    padding:5px;
+    font-size:1rem;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+form input::placeholder{
+    font-size:0.9rem;
+    font-weight: bold;
+    color:green;
+}
+input[type="submit"]{
+    margin: auto;
+    width:50%;
+    color: azure;
+    background-color: rgb(25, 25, 201);
+
+}
+
+@media only screen and (max-width: 575px){
+    .form form{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .container{
+        width:100%;
+        justify-content: center;
+        display: flex;
+    }
+    .form  form input{
+        margin: auto;
+        width:90%;
+        padding:5px;
+        font-size:1rem;
+        font-weight: bold;
+        margin-bottom:10px;
+    }
+   
+    form input::placeholder{
+        font-size:0.9rem;
+        font-weight: bold;
+        color:green;
+    }
+
+
+    input[type="submit"]{
+
+        margin: auto;
+        width:50%;
+        color: azure;
+        background-color: rgb(25, 25, 201);
+    
+    }
+
+}
+@media only screen and (min-width :576px) and (max-width :767px){
+    .form form{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .container{
+        width:100%;
+        justify-content: center;
+        display: flex;
+    }
+    .form  form input{
+        margin: auto;
+        width:90%;
+        padding:5px;
+        font-size:1rem;
+        font-weight: bold;
+        margin-bottom:10px;
+    }
+   
+    form input::placeholder{
+        font-size:0.9rem;
+        font-weight: bold;
+        color:green;
+    }
+
+
+    input[type="submit"]{
+
+        margin: auto;
+        width:50%;
+        color: azure;
+        background-color: rgb(25, 25, 201);
+    
+    }
+
+}

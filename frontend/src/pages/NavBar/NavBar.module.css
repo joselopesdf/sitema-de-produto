@@ -1,0 +1,158 @@
+
+
+@media only screen and (max-width: 575px) {
+
+    .Container{
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        padding:18px;
+        background-color: aqua;
+    } 
+.hidden{
+    display: none;
+}
+.title{
+    text-decoration: none;
+    font-size:1rem;
+    font-weight: bold;  
+}
+.title:hover{
+    color: gold;
+}
+.list{
+    text-decoration: none; 
+    font-size:1.42rem;
+    font-weight: bold; 
+}
+.list:hover{
+    color: gold;
+
+}
+.navbar nav ul {
+    margin-top:18px;
+    width:95%;
+    padding: 0 20px;
+    justify-content: space-between;
+    display: flex;
+    list-style: none; 
+}
+
+
+
+
+}
+@media only screen and (min-width :576px) and (max-width :767px){
+    .Container{
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        padding:18px;
+        background-color: aqua;
+    } 
+.hidden{
+    display: none;
+}
+.title{
+    text-decoration: none;
+    font-size:1rem;
+    font-weight: bold;  
+}
+.title:hover{
+    color: gold;
+}
+.list{
+    text-decoration: none; 
+    font-size:1.42rem;
+    font-weight: bold; 
+}
+.list:hover{
+    color: gold;
+
+}
+.navbar nav ul {
+    margin-top:18px;
+    width:95%;
+    padding: 0 20px;
+    justify-content: space-between;
+    display: flex;
+    list-style: none; 
+}
+
+
+}
+@media only screen and (min-width :768px) and (max-width :991px){
+    .Container{
+        justify-content: space-between;
+        display: flex;
+        padding:18px;
+        background-color: aqua;
+    }
+    .hidden{
+        display: none;
+    }
+    .title{
+        text-decoration: none;
+        font-size:1.5rem;
+        font-weight: bold;  
+    }
+    .title:hover{
+        color: gold;
+    }
+    .list{
+        text-decoration: none; 
+        font-size:1.42rem;
+        font-weight: bold; 
+    }
+    .list:hover{
+        color: gold;
+    
+    }
+    .navbar nav ul {
+        margin-top:18px;
+        width: 300px;
+        padding: 0 20px;
+        justify-content: space-between;
+        display: flex;
+        list-style: none; 
+    }
+    
+
+}
+@media only screen and (min-width :992px){
+    .Container{
+        justify-content: space-between;
+        display: flex;
+        padding:18px;
+        background-color: aqua;
+    }
+    .hidden{
+        display: none;
+    }
+    .title{
+        text-decoration: none;
+        font-size:1.5rem;
+        font-weight: bold;  
+    }
+    .title:hover{
+        color: gold;
+    }
+    .list{
+        text-decoration: none; 
+        font-size:1.42rem;
+        font-weight: bold; 
+    }
+    .list:hover{
+        color: gold;
+    
+    }
+    .navbar nav ul {
+        margin-top:18px;
+        width: 300px;
+        padding: 0 20px;
+        justify-content: space-between;
+        display: flex;
+        list-style: none; 
+    }
+
+}
